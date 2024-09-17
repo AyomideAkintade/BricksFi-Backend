@@ -6,6 +6,7 @@ This is endpoints for brickfi
 Endpoint: /signup
 Method: POST
 Description: Registers a new user using their email, password, first_name, last_name and phone_no.
+
     Request
     POST /signup
         {
@@ -35,6 +36,7 @@ Description: Registers a new user using their email, password, first_name, last_
 Endpoint: /login
 Method: POST
 Description: Logs in an existing user with email and password, returning a JWT token.
+
     Request
     POST /login
         {
@@ -58,10 +60,12 @@ Description: Logs in an existing user with email and password, returning a JWT t
             },
             "msg": "User logged In Successfully"
         }
+
 ## Forgot Password
 Endpoint: /forgot-password
 Method: POST
 Description: Sends a password reset code to the user's email.
+
     Request
     POST /forgot-password
         {
@@ -110,11 +114,13 @@ Description: Resets the user's password after successful code verification.
 500
 
 With Response  like
+
 {
     "msg": 'error message'
 }
 
 at times could have the error name
+
 {
     "msg": 'error message'
     "error": "err name"
