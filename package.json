@@ -1,0 +1,32 @@
+{
+  "name": "bricksfi-backend",
+  "version": "1.0.0",
+  "description": "Backend for Bricksfi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyomideAkintade/BricksFi-Backend.git"
+  },
+  "author": "Olorunfunminiyi Akinlua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyomideAkintade/BricksFi-Backend/issues"
+  },
+  "homepage": "https://github.com/AyomideAkintade/BricksFi-Backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.2",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.4"
+  }
+}
